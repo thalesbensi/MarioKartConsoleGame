@@ -1,4 +1,4 @@
-const Character = require('./Character');
+import Character from "./Character.js";
 
 class Bowser extends Character{
 
@@ -7,4 +7,4 @@ class Bowser extends Character{
     }
 }
 
-module.exports = Bowser;
+export default Bowser;

@@ -1,4 +1,4 @@
-const Character = require('./Character');
+import Character from "./Character.js";
 
 class Yoshi extends Character{
 
@@ -7,4 +7,4 @@ class Yoshi extends Character{
     }
 }
 
-module.exports = Yoshi;
+export default Yoshi;

@@ -26,18 +26,6 @@ class Character {
     get points() {
         return this._points;
     }
-
-    set points(value) {
-        if(value === 1){
-            this._points += 1
-        }
-        if(value === -1){
-            if (this._points === 0){
-                this._points = 0;
-            }
-            this._points -= 1;
-        }
-    }
 }
 
-module.exports = Character;
+export default Character;

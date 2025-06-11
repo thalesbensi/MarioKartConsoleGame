@@ -1,4 +1,4 @@
-const Character = require('./Character');
+import Character from "./Character.js";
 
 class DonkeyKong extends Character{
 
@@ -7,4 +7,4 @@ class DonkeyKong extends Character{
     }
 }
 
-module.exports = DonkeyKong;
+export default DonkeyKong;

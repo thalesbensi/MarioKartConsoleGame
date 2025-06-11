@@ -1,4 +1,4 @@
-const Character = require('./Character');
+import Character from "./Character.js";
 
 class Peach extends Character{
 
@@ -7,4 +7,4 @@ class Peach extends Character{
     }
 }
 
-module.exports = Peach;
+export default Peach;

@@ -1,9 +1,9 @@
-const Bowser = require('./model/Bowser')
-const DonkeyKong = require('./model/DonkeyKong');
-const Luigi = require('./model/Luigi')
-const Mario = require('./model/Mario');
-const Peach = require('./model/Peach')
-const Yoshi = require('./model/Yoshi')
+import Bowser from "./model/Bowser.js"
+import DonkeyKong from "./model/DonkeyKong.js"
+import Luigi from "./model/Luigi.js"
+import Mario from "./model/Mario.js"
+import Peach from "./model/Peach.js"
+import Yoshi from "./model/Yoshi.js"
 
 async function rollDice(){
     return Math.floor(Math.random() * 6 + 1);

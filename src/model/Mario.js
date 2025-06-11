@@ -1,4 +1,4 @@
-const Character = require('./Character');
+import Character from "./Character.js";
 
 class Mario extends Character{
 
@@ -7,4 +7,4 @@ class Mario extends Character{
     }
 }
 
-module.exports = Mario;
+export default Mario;
